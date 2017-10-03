@@ -178,4 +178,9 @@
 	<!-- Check for single blank line after namespace declaration. -->
 	<rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
 
+	<!-- Check that all non-classname based type declarations are lowercase. -->
+	<!-- Duplicate of upstream. Can be replaced once minimum PHPCS requirement has gone up.
+		 https://github.com/squizlabs/PHP_CodeSniffer/pull/1685 -->
+	<rule ref="WordPress.PHP.LowerCaseTypeDeclaration"/>
+
 </ruleset>
